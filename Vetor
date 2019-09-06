@@ -1,0 +1,28 @@
+
+package vetores;
+
+import java.util.Random;
+
+public class Vetores {
+
+    /**
+     * @param args the command line arguments
+     */
+        public static void main(String[] args) {
+       
+    Random rand = new Random();      
+     
+   int [] vet = {2, 5, 1, 6, 8, 7, 9, 3, 12, 14, 18, 20};
+  for (int i = 0; i<vet.length; i++)
+ {
+     
+    if (vet[i]%2==0)
+    {
+        System.out.printf(vet[i] +" ");
+    }
+ 
+   
+ }       
+    }
+    
+}
